@@ -1,0 +1,26 @@
+input {
+    line-height: 2;
+}
+
+#name {
+    line height: 2;
+    width: 100%;
+}
+
+#email {
+    line height: 2;
+    width: 100%;
+}
+
+#message {
+    line height: 2;
+    width: 100%;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 10px;
+    width: 60px;
+
+}
