@@ -63,7 +63,7 @@ body {
   }
 
   h2 {
-    front-size: 24px;
+    font-size: 24px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
   }
@@ -87,4 +87,70 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
+  }
+
+  @media screen and (max-width: 980px) {
+    body {
+      max-width: 100%;
+    }
+    .wrapper {
+      max-width: 80%;
+    }
+    h1 {
+      margin-left: 9.3%;
+    }
+    nav {
+      margin-right: 8%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      margin-left: 8.9%;
+    }
+    nav {
+      margin-right: 7.5%;
+    }
+    .wrapper {
+      max-width: 80%;
+    }
+    footer {
+      position: relative;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .header {
+      padding: 0;
+      width: 100%;
+      margin-bottom: 35px;
+    }
+    
+    h1 {
+      text-align: center;
+      width: 100%;
+      display: block;
+      margin: 0;
+    }
+
+    nav {
+      text-align: center;
+      width: 100%;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .wrapper {
+      margin-top: 10px;
+      padding-top: 20px;
+    }
+
+    h2 {
+      padding: 0px;
+    }
+
+    footer {
+      position: relative;
+    }
   }
