@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="UTF-8">
+
+    <title>Guess that Pokemon!</title>
+
+    <link rel-"stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div class = "wrapper">
+<div class = "game">
+
+<div class = "gameTitle">
+    <h1> Guess that </h1>
+    <img class="logo" src="assets/images/pokemon-logo.png" alt="Pokemon">
+</div>
+
+<div class = "instructions">
+<p>Press any letter to get started!</p>
+</div>
+
+<div class ="wordToGuess">
+    <p id = "dashes">_ _ _ _ _ _ _</p>
+</div>
+
+<div>
+    Number Of Guesses Left: 
+        <span id = "guessesLeft"></span>
+</div>
+
+<div>
+    Letters Already Guessed:
+    <span id ="lettersGuessed"></span>
+</div>
+
+<div class = "wins">
+    Wins: 
+    <span id ="winCount"></span>
+</div>
+
+<div class = "losses">
+    Losses: 
+    <span id = "lossCount"></span>
+</div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
