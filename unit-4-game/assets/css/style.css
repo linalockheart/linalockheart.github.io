@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    text-align: center;
+    background-image: url("../images/crystals-background.jpg");
+}
+
+.wrapper {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.jumbotron {
+    background-color:	#48D1CC;
+    opacity: 0.85;
+}
+
+.instructionsHeader {
+    background-color: #DDA0DD;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.scoreHeader {
+    background-color:	#66CDAA;
+}
+
+.crystalHeader {
+    background-color: 	#87CEFA;
+}
+
+.winsHeader, .lossHeader {
+    background-color:#FDF28F
+}
