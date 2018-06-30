@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+  }
+
+.wrapper {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+
+.jumbotron {
+    margin-top: 2%;
+    margin-bottom: 3.5%;
+    border-radius: 25px;
+    color: #ffffff;
+    background-color: #00004d;
+    text-align: center;
+}
+
+.clock {
+    font-size: 35px;
+}
+
+.card {
+    border-radius: 25px;
+    border: 5px solid;
+    border-color: #00004d;
+}
+
+.table {
+    margin-right: 6px;
+}
+
+.table-borderless th {
+    border: 0;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #00004d;
+}
+
