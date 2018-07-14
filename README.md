@@ -1,2 +1,2 @@
-Please visit my update portfolio page!
+Please visit my updated portfolio page!
 https://linalockheart.github.io/
