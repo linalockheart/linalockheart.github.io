@@ -37,6 +37,8 @@ body {
   color: black !important;
   font-weight: bolder;
   font-size: 125%;
+  background-color: #D7D8E9;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 476px) {
