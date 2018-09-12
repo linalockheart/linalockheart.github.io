@@ -72,8 +72,9 @@ body {
 
 
 .skills {
-  font-size: 155%;
+  font-size: 125%;
   font-weight: bolder;
+  line-height: 80%;
 }
 
 .photoDiv {
