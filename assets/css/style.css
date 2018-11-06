@@ -84,7 +84,7 @@ body {
 }
 
 .profilePic {
-  width: 60%;
+  width: 50%;
   border-style: solid;
   border-color: white;
   border-width: 15px;
@@ -159,7 +159,7 @@ button {
 
 button:hover {
   background-color: black;
-  color: #A5CFC9;
+  color: #A5CFC9 !important;
 }
 
 a {
