@@ -139,6 +139,12 @@ body {
   font-weight: bolder;
 }
 
+.projectName:hover {
+  color: #E1695C !important;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
 .contact {
   text-align: center;
   padding-top: 1%;
@@ -164,12 +170,13 @@ button:hover {
 
 a {
   color: black;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: black;
   color: #A5CFC9;
+  text-decoration: none;
 }
 
 .footer {
